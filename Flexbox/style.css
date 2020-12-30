@@ -15,11 +15,13 @@ body {
 .flex-container {
     display: flex;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .box {
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
+    flex: 1;
 
 }
 
