@@ -31,6 +31,10 @@ div img {
 }
 
 /* grid system -- mobile first! */
+.row {
+	display: flex;
+	
+}
 
 
 /* Mobile Landscape Screen Sizes */
