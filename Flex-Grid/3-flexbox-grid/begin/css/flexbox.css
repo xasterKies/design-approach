@@ -41,7 +41,7 @@ div img {
 	margin-left: 4%;
 }
 
-.col-1 {
+.col-1-2 {
 	background: #ffc;
 }
 
@@ -60,10 +60,17 @@ div img {
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 
+	.col-1-2,
+	.col-2 {
+		
+	}
+	.
+
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-	.col-1 {
+	.col-1-2,
+	.col-1-4 {
 		/* flex property shows flex grow, flex-shrink, flex-basis */
 		flex: 0 0 20%;
 	}
